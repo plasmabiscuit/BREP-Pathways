@@ -6,25 +6,56 @@
         "title": "Fundamentals of Bioinformatics-Bash",
         "repoUrl": "https://github.com/plasmabiscuit/Fundamentals-of-Bioinformatics",
         "introVideo": "Intros/Fundamentals-of-Bioinformatics-bash.mp4",
-        "cardImage": "cards/Foundations of Bioinformatics_ BASH.png"
+        "cardImage": "cards/Foundations of Bioinformatics_ BASH.png",
+        "description": "A foundational resource covering the fundamental concepts and practices of bioinformatics.",
+        "skills": [
+          "Bioinformatics",
+          "Computational Biology",
+          "Sequence Alignment",
+          "Database Searching",
+          "BLAST"
+        ]
       },
       {
         "title": "Introduction to Data Science for Biology",
         "repoUrl": "https://github.com/plasmabiscuit/Introduction-to-Data-Science-for-Biology",
         "introVideo": "Intros/introduction-to-data-science-for-biology.mp4",
-        "cardImage": "cards/Introduction to Data Science for Biology.png"
+        "cardImage": "cards/Introduction to Data Science for Biology.png",
+        "description": "An introductory guide to applying data science principles and techniques to biological data.",
+        "skills": [
+          "Data Science",
+          "Biology",
+          "Computational Biology",
+          "Data Wrangling",
+          "Data Visualization",
+          "Statistical Methods"
+        ]
       },
       {
         "title": "Foundations of Python for Data Science",
         "repoUrl": "https://github.com/plasmabiscuit/Foundations-of-Python-for-Data-Science",
         "introVideo": "Intros/foundations-of-python-for-data-science.mp4",
-        "cardImage": "cards/Foundations of Python for Data Science.png"
+        "cardImage": "cards/Foundations of Python for Data Science.png",
+        "description": "A course on the foundational principles of using the Python programming language for data science applications.",
+        "skills": [
+          "Python",
+          "Data Science",
+          "Programming Fundamentals",
+          "Data Analysis"
+        ]
       },
       {
         "title": "Data Science Foundations-",
         "repoUrl": "https://github.com/plasmabiscuit/Data-Science-Foundations-in-R",
         "introVideo": "Intros/Data-Science-Foundations-in-R.mp4",
-        "cardImage": "cards/Data Science Foundations_ R.png"
+        "cardImage": "cards/Data Science Foundations_ R.png",
+        "description": "A course on the foundational principles of using the R programming language for data science applications.",
+        "skills": [
+          "R",
+          "Data Science",
+          "Programming Fundamentals",
+          "Data Analysis"
+        ]
       }
     ]
   },
@@ -35,19 +66,42 @@
         "title": "ML for Biomedical Researchers",
         "repoUrl": "https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers",
         "introVideo": null,
-        "cardImage": "cards/ML-For-Biomedical-Researchers.png"
+        "cardImage": "cards/ML-For-Biomedical-Researchers.png",
+        "description": "A resource for biomedical researchers on applying Artificial Intelligence (AI) and Machine Learning (ML) methods.",
+        "skills": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Biomedical Research",
+          "Data Modeling"
+        ]
       },
       {
         "title": "Analysis of Biomedical Data for Biomarker Discovery",
         "repoUrl": "https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery",
         "introVideo": null,
-        "cardImage": "cards/Analysis of Biomedical Data for Biomarker Discovery.png"
+        "cardImage": "cards/Analysis of Biomedical Data for Biomarker Discovery.png",
+        "description": "A guide to analyzing biomedical data for the purpose of discovering novel biomarkers.",
+        "skills": [
+          "Biomarker Discovery",
+          "Biomedical Data Analysis",
+          "Biostatistics",
+          "Feature Selection",
+          "Predictive Modeling"
+        ]
       },
       {
         "title": "Biomedical Imaging Analysis using AI/ML approaches",
         "repoUrl": "https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches",
         "introVideo": null,
-        "cardImage": "cards/Biomedical Imaging Analysis using AI_ML approaches.png"
+        "cardImage": "cards/Biomedical Imaging Analysis using AI_ML approaches.png",
+        "description": "A training module on using AI and ML approaches for the analysis of biomedical imaging data.",
+        "skills": [
+          "Biomedical Imaging",
+          "Image Analysis",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Computer Vision"
+        ]
       }
     ]
   },
@@ -58,31 +112,67 @@
         "title": "Consensus Pathway Analysis in the Cloud",
         "repoUrl": "https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud",
         "introVideo": null,
-        "cardImage": "cards/Consensus Pathway Analysis in the Cloud.png"
+        "cardImage": "cards/Consensus Pathway Analysis in the Cloud.png",
+        "description": "A resource for performing consensus biological pathway analysis using cloud computing platforms.",
+        "skills": [
+          "Pathway Analysis",
+          "Systems Biology",
+          "Cloud Computing",
+          "Bioinformatics"
+        ]
       },
       {
         "title": "DNA Methylation Sequencing Analysis with WGBS",
         "repoUrl": "https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS",
         "introVideo": null,
-        "cardImage": "cards/DNA Methylation Sequencing Analysis with WGBS.png"
+        "cardImage": "cards/DNA Methylation Sequencing Analysis with WGBS.png",
+        "description": "A guide to analyzing DNA methylation sequencing data from Whole-Genome Bisulfite Sequencing (WGBS).",
+        "skills": [
+          "DNA Methylation",
+          "Epigenomics",
+          "WGBS",
+          "Sequencing Analysis"
+        ]
       },
       {
         "title": "ATAC-Seq and Single Cell ATAC-Seq Analysis",
         "repoUrl": "https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis",
         "introVideo": null,
-        "cardImage": "cards/ATAC-Seq Analysis.png"
+        "cardImage": "cards/ATAC-Seq Analysis.png",
+        "description": "A training resource for analyzing chromatin accessibility using both bulk and single-cell ATAC-Seq data.",
+        "skills": [
+          "ATAC-Seq",
+          "Single-Cell Analysis",
+          "Chromatin Accessibility",
+          "Epigenomics"
+        ]
       },
       {
         "title": "Chromatin Occupancy with Cut and Run",
         "repoUrl": "https://github.com/NIGMS/Chromatin-Occupancy",
         "introVideo": null,
-        "cardImage": "cards/Chromatin Occupancy with Cut and Run.png"
+        "cardImage": "cards/Chromatin Occupancy with Cut and Run.png",
+        "description": "A resource focused on the analysis of chromatin occupancy data, such as from ChIP-Seq experiments.",
+        "skills": [
+          "Chromatin Occupancy",
+          "ChIP-Seq",
+          "Epigenomics",
+          "Genomics"
+        ]
       },
       {
         "title": "Integrating Multi-Omics Datasets",
         "repoUrl": "https://github.com/NIGMS/Integrating-Multi-Omics-Datasets",
         "introVideo": null,
-        "cardImage": "cards/Integrating Multi-Omnics.png"
+        "cardImage": "cards/Integrating Multi-Omnics.png",
+        "description": "A guide to methods for integrating and analyzing datasets from multiple omics sources.",
+        "skills": [
+          "Multi-Omics",
+          "Data Integration",
+          "Systems Biology",
+          "Dimensionality Reduction",
+          "Network Analysis"
+        ]
       }
     ]
   },
@@ -93,37 +183,81 @@
         "title": "Introduction to Amplicon-based Metagenomics",
         "repoUrl": "https://github.com/NIGMS/16SrRNA-Microbial-Analysis",
         "introVideo": null,
-        "cardImage": "cards/Introduction to Amplicon.png"
+        "cardImage": "cards/Introduction to Amplicon.png",
+        "description": "A training module for performing microbial community analysis using 16S rRNA gene sequencing data.",
+        "skills": [
+          "16S rRNA",
+          "Microbiome",
+          "Metagenomics",
+          "Amplicon Sequencing",
+          "OTU Clustering",
+          "Taxonomic Classification"
+        ]
       },
       {
         "title": "Introduction to Phylogenetics",
         "repoUrl": "https://github.com/NIGMS/Introduction-to-Phylogenetics",
         "introVideo": null,
-        "cardImage": "cards/Introduction to Phylogenetics.png"
+        "cardImage": "cards/Introduction to Phylogenetics.png",
+        "description": "An introductory resource covering the principles and methods of phylogenetic analysis.",
+        "skills": [
+          "Phylogenetics",
+          "Evolutionary Biology",
+          "Sequence Alignment",
+          "Phylogenetic Trees"
+        ]
       },
       {
         "title": "Introduction to Population Genomics",
         "repoUrl": "https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq",
         "introVideo": null,
-        "cardImage": "cards/Introduction to Population Genomics.png"
+        "cardImage": "cards/Introduction to Population Genomics.png",
+        "description": "A guide to applying RAD-seq for population genomics and phylogenetics studies.",
+        "skills": [
+          "Population Genomics",
+          "Phylogenetics",
+          "RAD-seq",
+          "Genomics"
+        ]
       },
       {
         "title": "Comparative Prokaryotic Genomics",
         "repoUrl": "https://github.com/NIGMS/Comparative-Microbial-Genomics",
         "introVideo": null,
-        "cardImage": "cards/Comparative Prokaryotic Genomics.png"
+        "cardImage": "cards/Comparative Prokaryotic Genomics.png",
+        "description": "A resource for performing comparative analysis of microbial genomes to understand their evolution and function.",
+        "skills": [
+          "Comparative Genomics",
+          "Microbial Genomics",
+          "Bioinformatics",
+          "Evolutionary Biology"
+        ]
       },
       {
         "title": "Introduction to Pangenomic Methods",
         "repoUrl": "https://github.com/NIGMS/Intro-to-Pangenomics",
         "introVideo": null,
-        "cardImage": "cards/Introduction to Pangenomic Methods.png"
+        "cardImage": "cards/Introduction to Pangenomic Methods.png",
+        "description": "An introductory guide to the concepts and methods of pangenome analysis.",
+        "skills": [
+          "Pangenomics",
+          "Genomics",
+          "Comparative Genomics",
+          "Microbial Genomics"
+        ]
       },
       {
         "title": "Metagenomics Analysis of Biofilm-Microbiome",
         "repoUrl": "https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome",
         "introVideo": null,
-        "cardImage": "cards/Metagenomics Analysis of Biofilm.png"
+        "cardImage": "cards/Metagenomics Analysis of Biofilm.png",
+        "description": "A training module for the metagenomic analysis of microbial communities within biofilms.",
+        "skills": [
+          "Metagenomics",
+          "Microbiome",
+          "Biofilm",
+          "Microbial Ecology"
+        ]
       }
     ]
   },
@@ -134,13 +268,27 @@
         "title": "Proteome Quantification",
         "repoUrl": "https://github.com/NIGMS/Proteome-Quantification",
         "introVideo": null,
-        "cardImage": "cards/Proteome Quantification.png"
+        "cardImage": "cards/Proteome Quantification.png",
+        "description": "A resource for methods and workflows related to the quantification of proteomes.",
+        "skills": [
+          "Proteomics",
+          "Mass Spectrometry",
+          "Protein Quantification",
+          "Bioinformatics"
+        ]
       },
       {
         "title": "Proteome Structures and Docking",
         "repoUrl": "https://github.com/NIGMS/Proteome-Quantification",
         "introVideo": null,
-        "cardImage": "cards/Structural Biology and Drug Discovery.png"
+        "cardImage": "cards/Structural Biology and Drug Discovery.png",
+        "description": "A resource for methods and workflows related to the quantification of proteomes.",
+        "skills": [
+          "Proteomics",
+          "Mass Spectrometry",
+          "Protein Quantification",
+          "Bioinformatics"
+        ]
       }
     ]
   },
@@ -151,25 +299,56 @@
         "title": "Explore RNA methylation using MeRIP-seq",
         "repoUrl": "https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq",
         "introVideo": null,
-        "cardImage": "cards/Explore RNA methylation using MeRIP-seq.png"
+        "cardImage": "cards/Explore RNA methylation using MeRIP-seq.png",
+        "description": "A guide for analyzing RNA methylation using MeRIP-seq (Methylated RNA Immunoprecipitation Sequencing) data.",
+        "skills": [
+          "RNA Methylation",
+          "MeRIP-seq",
+          "Epitranscriptomics",
+          "RNA Biology"
+        ]
       },
       {
         "title": "RNAseq Differential Expression Analysis",
         "repoUrl": "https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis",
         "introVideo": null,
-        "cardImage": "cards/RNAseq Differential Expression Analysis.png"
+        "cardImage": "cards/RNAseq Differential Expression Analysis.png",
+        "description": "A resource for performing differential expression analysis on RNA-Sequencing data.",
+        "skills": [
+          "RNA-Seq",
+          "Differential Expression Analysis",
+          "Transcriptomics",
+          "Gene Expression",
+          "Count Matrix",
+          "Statistical Modeling"
+        ]
       },
       {
         "title": "Transcriptome Assembly Refinement and Applications",
         "repoUrl": "https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications",
         "introVideo": null,
-        "cardImage": "cards/Transcriptome Assembly Refinement and Applications.png"
+        "cardImage": "cards/Transcriptome Assembly Refinement and Applications.png",
+        "description": "A training module on assembling, refining, and applying transcriptome data.",
+        "skills": [
+          "Transcriptome Assembly",
+          "RNA-Seq",
+          "De Novo Assembly",
+          "Gene Annotation",
+          "Transcript Quantification"
+        ]
       },
       {
         "title": "scRNASeq, miRNASeq, and Transcription Factors",
         "repoUrl": "https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq",
         "introVideo": null,
-        "cardImage": "cards/scRNASeq, miRNASeq, and Transcription Factors.png"
+        "cardImage": "cards/scRNASeq, miRNASeq, and Transcription Factors.png",
+        "description": "A resource covering the analysis of both bulk and single-cell RNA sequencing (RNA-seq) data.",
+        "skills": [
+          "RNA-Seq",
+          "Single-Cell Analysis",
+          "scRNA-seq",
+          "Transcriptomics"
+        ]
       }
     ]
   }
