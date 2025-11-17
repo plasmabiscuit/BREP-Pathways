@@ -4,19 +4,31 @@
     "modules": [
       {
         "title": "Fundamentals of Bioinformatics-Bash",
-        "url": "https://github.com/plasmabiscuit/Fundamentals-of-Bioinformatics"
+        "repoUrl": "https://github.com/plasmabiscuit/Fundamentals-of-Bioinformatics",
+        "pagesUrl": "https://plasmabiscuit.github.io/Fundamentals-of-Bioinformatics/",
+        "introVideo": "Intros/Fundamentals-of-Bioinformatics-bash.mp4",
+        "cardImage": "cards/Foundations of Bioinformatics_ BASH.png"
       },
       {
         "title": "Introduction to Data Science for Biology",
-        "url": "https://github.com/plasmabiscuit/Introduction-to-Data-Science-for-Biology"
+        "repoUrl": "https://github.com/plasmabiscuit/Introduction-to-Data-Science-for-Biology",
+        "pagesUrl": "https://plasmabiscuit.github.io/Introduction-to-Data-Science-for-Biology/",
+        "introVideo": "Intros/introduction-to-data-science-for-biology.mp4",
+        "cardImage": "cards/Introduction to Data Science for Biology.png"
       },
       {
         "title": "Foundations of Python for Data Science",
-        "url": "https://github.com/plasmabiscuit/Foundations-of-Python-for-Data-Science"
+        "repoUrl": "https://github.com/plasmabiscuit/Foundations-of-Python-for-Data-Science",
+        "pagesUrl": "https://plasmabiscuit.github.io/Foundations-of-Python-for-Data-Science/",
+        "introVideo": "Intros/foundations-of-python-for-data-science.mp4",
+        "cardImage": "cards/Foundations of Python for Data Science.png"
       },
       {
         "title": "Data Science Foundations-",
-        "url": "https://github.com/plasmabiscuit/Data-Science-Foundations-in-R"
+        "repoUrl": "https://github.com/plasmabiscuit/Data-Science-Foundations-in-R",
+        "pagesUrl": "https://plasmabiscuit.github.io/Data-Science-Foundations-in-R/",
+        "introVideo": "Intros/Data-Science-Foundations-in-R.mp4",
+        "cardImage": "cards/Data Science Foundations_ R.png"
       }
     ]
   },
@@ -25,15 +37,24 @@
     "modules": [
       {
         "title": "Python and ML for Biomedical Data Science",
-        "url": "https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers"
+        "repoUrl": "https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers",
+        "pagesUrl": "https://NIGMS.github.io/AI-ML-For-Biomedical-Researchers/",
+        "introVideo": null,
+        "cardImage": null
       },
       {
         "title": "Analysis of Biomedical Data for Biomarker Discovery",
-        "url": "https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery"
+        "repoUrl": "https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery",
+        "pagesUrl": "https://NIGMS.github.io/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/",
+        "introVideo": null,
+        "cardImage": "cards/Analysis of Biomedical Data for Biomarker Discovery.png"
       },
       {
         "title": "Biomedical Imaging Analysis using AI/ML approaches",
-        "url": "https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches"
+        "repoUrl": "https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches",
+        "pagesUrl": "https://NIGMS.github.io/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/",
+        "introVideo": null,
+        "cardImage": "cards/Biomedical Imaging Analysis using AI_ML approaches.png"
       }
     ]
   },
@@ -42,23 +63,38 @@
     "modules": [
       {
         "title": "Consensus Pathway Analysis in the Cloud",
-        "url": "https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud"
+        "repoUrl": "https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud",
+        "pagesUrl": "https://NIGMS.github.io/Consensus-Pathway-Analysis-in-the-Cloud/",
+        "introVideo": null,
+        "cardImage": "cards/Consensus Pathway Analysis in the Cloud.png"
       },
       {
         "title": "DNA Methylation Sequencing Analysis with WGBS",
-        "url": "https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS"
+        "repoUrl": "https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS",
+        "pagesUrl": "https://NIGMS.github.io/DNA-Methylation-Sequencing-Analysis-with-WGBS/",
+        "introVideo": null,
+        "cardImage": "cards/DNA Methylation Sequencing Analysis with WGBS.png"
       },
       {
         "title": "ATAC-Seq and Single Cell ATAC-Seq Analysis",
-        "url": "https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis"
+        "repoUrl": "https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis",
+        "pagesUrl": "https://NIGMS.github.io/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/",
+        "introVideo": null,
+        "cardImage": "cards/ATAC-Seq Analysis.png"
       },
       {
         "title": "Chromatin Occupancy with Cut and Run",
-        "url": "https://github.com/NIGMS/Chromatin-Occupancy"
+        "repoUrl": "https://github.com/NIGMS/Chromatin-Occupancy",
+        "pagesUrl": "https://NIGMS.github.io/Chromatin-Occupancy/",
+        "introVideo": null,
+        "cardImage": "cards/Chromatin Occupancy with Cut and Run.png"
       },
       {
         "title": "Integrating Multi-Omics Datasets",
-        "url": "https://github.com/NIGMS/Integrating-Multi-Omics-Datasets"
+        "repoUrl": "https://github.com/NIGMS/Integrating-Multi-Omics-Datasets",
+        "pagesUrl": "https://NIGMS.github.io/Integrating-Multi-Omics-Datasets/",
+        "introVideo": null,
+        "cardImage": "cards/Integrating Multi-Omnics.png"
       }
     ]
   },
@@ -67,27 +103,45 @@
     "modules": [
       {
         "title": "Introduction to Amplicon-based Metagenomics",
-        "url": "https://github.com/NIGMS/16SrRNA-Microbial-Analysis"
+        "repoUrl": "https://github.com/NIGMS/16SrRNA-Microbial-Analysis",
+        "pagesUrl": "https://NIGMS.github.io/16SrRNA-Microbial-Analysis/",
+        "introVideo": null,
+        "cardImage": "cards/Introduction to Amplicon.png"
       },
       {
         "title": "Introduction to Phylogenetics",
-        "url": "https://github.com/NIGMS/Introduction-to-Phylogenetics"
+        "repoUrl": "https://github.com/NIGMS/Introduction-to-Phylogenetics",
+        "pagesUrl": "https://NIGMS.github.io/Introduction-to-Phylogenetics/",
+        "introVideo": null,
+        "cardImage": "cards/Introduction to Phylogenetics.png"
       },
       {
         "title": "Introduction to Population Genomics",
-        "url": "https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq"
+        "repoUrl": "https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq",
+        "pagesUrl": "https://NIGMS.github.io/Population-Genomics-and-Phylogenetics-with-RADseq/",
+        "introVideo": null,
+        "cardImage": "cards/Introduction to Population Genomics.png"
       },
       {
         "title": "Comparative Prokaryotic Genomics",
-        "url": "https://github.com/NIGMS/Comparative-Microbial-Genomics"
+        "repoUrl": "https://github.com/NIGMS/Comparative-Microbial-Genomics",
+        "pagesUrl": "https://NIGMS.github.io/Comparative-Microbial-Genomics/",
+        "introVideo": null,
+        "cardImage": "cards/Comparative Prokaryotic Genomics.png"
       },
       {
         "title": "Introduction to Pangenomic Methods",
-        "url": "https://github.com/NIGMS/Intro-to-Pangenomics"
+        "repoUrl": "https://github.com/NIGMS/Intro-to-Pangenomics",
+        "pagesUrl": "https://NIGMS.github.io/Intro-to-Pangenomics/",
+        "introVideo": null,
+        "cardImage": "cards/Introduction to Pangenomic Methods.png"
       },
       {
         "title": "Metagenomics Analysis of Biofilm-Microbiome",
-        "url": "https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome"
+        "repoUrl": "https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome",
+        "pagesUrl": "https://NIGMS.github.io/Metagenomics-Analysis-of-Biofilm-Microbiome/",
+        "introVideo": null,
+        "cardImage": "cards/Metagenomics Analysis of Biofilm.png"
       }
     ]
   },
@@ -96,11 +150,17 @@
     "modules": [
       {
         "title": "Proteome Quantification",
-        "url": "https://github.com/NIGMS/Proteome-Quantification"
+        "repoUrl": "https://github.com/NIGMS/Proteome-Quantification",
+        "pagesUrl": "https://NIGMS.github.io/Proteome-Quantification/",
+        "introVideo": null,
+        "cardImage": "cards/Proteome Quantification.png"
       },
       {
         "title": "Proteome Structures and Docking",
-        "url": "https://github.com/NIGMS/Proteome-Quantification"
+        "repoUrl": "https://github.com/NIGMS/Proteome-Quantification",
+        "pagesUrl": "https://NIGMS.github.io/Proteome-Quantification/",
+        "introVideo": null,
+        "cardImage": "cards/Structural Biology and Drug Discovery.png"
       }
     ]
   },
@@ -109,19 +169,31 @@
     "modules": [
       {
         "title": "Explore RNA methylation using MeRIP-seq",
-        "url": "https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq"
+        "repoUrl": "https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq",
+        "pagesUrl": "https://NIGMS.github.io/RNA-Methylation-with-MeRIP-seq/",
+        "introVideo": null,
+        "cardImage": "cards/Explore RNA methylation using MeRIP-seq.png"
       },
       {
         "title": "RNAseq Differential Expression Analysis",
-        "url": "https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis"
+        "repoUrl": "https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis",
+        "pagesUrl": "https://NIGMS.github.io/RNA-Seq-Differential-Expression-Analysis/",
+        "introVideo": null,
+        "cardImage": "cards/RNAseq Differential Expression Analysis.png"
       },
       {
         "title": "Transcriptome Assembly Refinement and Applications",
-        "url": "https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications"
+        "repoUrl": "https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications",
+        "pagesUrl": "https://NIGMS.github.io/Transcriptome-Assembly-Refinement-and-Applications/",
+        "introVideo": null,
+        "cardImage": "cards/Transcriptome Assembly Refinement and Applications.png"
       },
       {
         "title": "scRNASeq, miRNASeq, and Transcription Factors",
-        "url": "https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq"
+        "repoUrl": "https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq",
+        "pagesUrl": "https://NIGMS.github.io/Bulk-and-Single-Cell-RNAseq/",
+        "introVideo": null,
+        "cardImage": "cards/scRNASeq, miRNASeq, and Transcription Factors.png"
       }
     ]
   }
