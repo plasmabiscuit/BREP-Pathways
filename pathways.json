@@ -3,7 +3,7 @@
     "name": "Introduction to Biomedical Data Science",
     "modules": [
       {
-        "title": "Fundamentals of Bioinformatics",
+        "title": "Fundamentals of Bioinformatics-Bash",
         "url": "https://github.com/NIGMS/Fundamentals-of-Bioinformatics"
       },
       {
@@ -11,11 +11,11 @@
         "url": "https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology"
       },
       {
-        "title": "Introduction to Python for Biology",
+        "title": "Foundations of Python for Data Science",
         "url": "https://github.com/NIGMS/Foundations-of-Python-for-Data-Science"
       },
       {
-        "title": "Introduction to R and LLMs for Biology",
+        "title": "Data Science Foundations-",
         "url": "https://github.com/NIGMS/Data-Science-Foundations-in-R"
       }
     ]
