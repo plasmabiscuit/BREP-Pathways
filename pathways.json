@@ -1,0 +1,135 @@
+{
+  "Data Science Foundations - R": {
+    "description": "This module provides a practical, hands-on introduction to modern data science workflows using the R programming language and its Tidyverse ecosystem.",
+    "competencies": [
+      {
+        "competency": "Data Manipulation",
+        "tools_packages": [
+          "dplyr",
+          "tidyr",
+          "pipe operator (%>%)"
+        ]
+      },
+      {
+        "competency": "Data Visualization",
+        "tools_packages": [
+          "ggplot2"
+        ]
+      },
+      {
+        "competency": "Statistical Analysis",
+        "tools_packages": [
+          "t-tests",
+          "ANOVA",
+          "ANCOVA",
+          "DESeq2"
+        ]
+      },
+      {
+        "competency": "Cloud & AI Integration",
+        "tools_packages": [
+          "Google Cloud Platform (Vertex AI)",
+          "JupyterLab",
+          "Gemini"
+        ]
+      }
+    ]
+  },
+  "Introduction to Data Science for Biology": {
+    "description": "This module demystifies fundamental machine learning concepts by teaching the critical lesson of model decay and the necessity of retraining.",
+    "competencies": [
+      {
+        "competency": "Data Handling",
+        "tools_packages": [
+          "Pandas",
+          "NumPy"
+        ]
+      },
+      {
+        "competency": "Model Building",
+        "tools_packages": [
+          "scikit-learn (sklearn)"
+        ]
+      },
+      {
+        "competency": "ML Model",
+        "tools_packages": [
+          "DecisionTreeRegressor"
+        ]
+      },
+      {
+        "competency": "Model Maintenance",
+        "tools_packages": [
+          "Model retraining to adapt to changing conditions"
+        ]
+      }
+    ]
+  },
+  "Fundamentals of Bioinformatics - Bash": {
+    "description": "This module equips researchers with the essential command-line skills to execute a complete bioinformatics workflow in a high-performance cloud environment.",
+    "competencies": [
+      {
+        "competency": "BASH",
+        "tools_packages": [
+          "scripting",
+          "loops",
+          "grep",
+          "cut",
+          "sort"
+        ]
+      },
+      {
+        "competency": "Software Management",
+        "tools_packages": [
+          "Conda"
+        ]
+      },
+      {
+        "competency": "Data Acquisition/QC",
+        "tools_packages": [
+          "sra-tools",
+          "FastQC",
+          "MultiQC"
+        ]
+      },
+      {
+        "competency": "Genome Analysis",
+        "tools_packages": [
+          "Spades (assembly)",
+          "Prokka (annotation)"
+        ]
+      }
+    ]
+  },
+  "Foundations of Python for Biology": {
+    "description": "This module is designed for biological scientists with limited programming background, prioritizing practical Python techniques for data analysis and management.",
+    "competencies": [
+      {
+        "competency": "Data Handling & Analysis",
+        "tools_packages": [
+          "Pandas",
+          "NumPy"
+        ]
+      },
+      {
+        "competency": "Data Visualization",
+        "tools_packages": [
+          "Matplotlib (line plots, histograms, boxplots)"
+        ]
+      },
+      {
+        "competency": "Bioinformatics",
+        "tools_packages": [
+          "Biopython"
+        ]
+      },
+      {
+        "competency": "Reproducible Research",
+        "tools_packages": [
+          "Git",
+          "GitHub"
+        ]
+      }
+    ]
+  }
+}
