@@ -111,13 +111,111 @@
         opacity: 0.95;
       }
 
-      .hero-kicker {
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
-        font-size: 0.85rem;
-        color: rgba(255, 255, 255, 0.7);
+      .hero-nav {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
         margin-bottom: 1rem;
-        display: inline-block;
+      }
+
+      .hero-nav-toggle {
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        padding: 0.35rem 1rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        cursor: pointer;
+        transition: background 160ms ease, box-shadow 160ms ease;
+      }
+
+      .hero-nav-toggle:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35);
+      }
+
+      .hero-nav.is-open .hero-nav-toggle {
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      .hero-nav-menu {
+        position: absolute;
+        top: calc(100% + 0.75rem);
+        left: 0;
+        min-width: 240px;
+        padding: 0.75rem;
+        border-radius: 1rem;
+        background: #fff;
+        color: var(--text);
+        box-shadow: 0 15px 40px rgba(25, 9, 47, 0.25);
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        z-index: 3;
+      }
+
+      .hero-nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        padding: 0.6rem 0.75rem;
+        border-radius: 0.65rem;
+        font-weight: 500;
+        color: inherit;
+        text-decoration: none;
+        transition: background 160ms ease, color 160ms ease;
+      }
+
+      .hero-nav-link:hover,
+      .hero-nav-link:focus-visible {
+        background: rgba(88, 44, 131, 0.08);
+        color: var(--accent-dark);
+        outline: none;
+      }
+
+      .hero-nav-link.is-current {
+        background: rgba(88, 44, 131, 0.12);
+        color: var(--accent-dark);
+        font-weight: 600;
+      }
+
+      .hero-nav-link-indicator {
+        font-size: 0.85rem;
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      .hero-nav-link.is-disabled {
+        cursor: not-allowed;
+        opacity: 0.55;
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      .hero-nav-link.is-disabled .hero-nav-link-note {
+        font-size: 0.75rem;
+        color: var(--subtle);
+        font-weight: 500;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
       }
 
       h1 {
@@ -377,7 +475,64 @@
   <body>
     <header class="hero">
       <div class="hero-content">
-        <span class="hero-kicker">BREP</span>
+        <div class="hero-nav">
+          <button
+            class="hero-nav-toggle"
+            type="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <span class="hero-nav-label">BREP Pathways</span>
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="hero-nav-menu" role="menu" hidden>
+            <a
+              class="hero-nav-link"
+              role="menuitem"
+              href="https://plasmabiscuit.github.io/BREP/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BREP Overview
+            </a>
+            <a
+              class="hero-nav-link is-current"
+              role="menuitem"
+              href="https://plasmabiscuit.github.io/BREP-Pathways/"
+            >
+              <span>BREP Pathways</span>
+              <span class="hero-nav-link-indicator" aria-hidden="true">✓</span>
+              <span class="sr-only">(current page)</span>
+            </a>
+            <a
+              class="hero-nav-link"
+              role="menuitem"
+              href="https://plasmabiscuit.github.io/NIH-ResourceFinder/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NIH Resource Finder
+            </a>
+            <a
+              class="hero-nav-link"
+              role="menuitem"
+              href="https://www.appsheet.com/start/c2441530-0ec5-4eec-919b-b34b20e46536"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NIH Award Repository
+            </a>
+            <span
+              class="hero-nav-link is-disabled"
+              role="menuitem"
+              aria-disabled="true"
+              tabindex="-1"
+            >
+              <span>TTU Research Inventory Exchange</span>
+              <span class="hero-nav-link-note">Coming soon</span>
+            </span>
+          </div>
+        </div>
         <h1>Mentored Research Experience Pathways</h1>
         <p class="hero-subtitle">
           Explore mentored learning pathways featuring hands-on modules and
@@ -444,6 +599,83 @@
       const githubButton = document.getElementById("modal-github");
       const modalCloseButton = modal.querySelector(".modal-close");
       const modalBackdrop = modal.querySelector(".modal-backdrop");
+
+      const heroNav = document.querySelector(".hero-nav");
+      if (heroNav) {
+        const navToggle = heroNav.querySelector(".hero-nav-toggle");
+        const navMenu = heroNav.querySelector(".hero-nav-menu");
+
+        if (navToggle && navMenu) {
+          const focusFirstMenuItem = () => {
+            const firstItem = navMenu.querySelector(
+              '[role="menuitem"]:not(.is-disabled)'
+            );
+            if (firstItem && typeof firstItem.focus === "function") {
+              firstItem.focus();
+            }
+          };
+
+          const openHeroMenu = () => {
+            heroNav.classList.add("is-open");
+            navToggle.setAttribute("aria-expanded", "true");
+            navMenu.hidden = false;
+          };
+
+          const closeHeroMenu = () => {
+            heroNav.classList.remove("is-open");
+            navToggle.setAttribute("aria-expanded", "false");
+            navMenu.hidden = true;
+          };
+
+          navToggle.addEventListener("click", (event) => {
+            event.stopPropagation();
+            if (heroNav.classList.contains("is-open")) {
+              closeHeroMenu();
+            } else {
+              openHeroMenu();
+            }
+          });
+
+          navToggle.addEventListener("keydown", (event) => {
+            if (
+              event.key === "ArrowDown" &&
+              !heroNav.classList.contains("is-open")
+            ) {
+              event.preventDefault();
+              openHeroMenu();
+              focusFirstMenuItem();
+            }
+          });
+
+          navMenu.addEventListener("click", (event) => {
+            const target = event.target.closest(".hero-nav-link");
+            if (!target) {
+              return;
+            }
+            if (target.classList.contains("is-disabled")) {
+              event.preventDefault();
+              return;
+            }
+            closeHeroMenu();
+          });
+
+          document.addEventListener("click", (event) => {
+            if (!heroNav.contains(event.target)) {
+              closeHeroMenu();
+            }
+          });
+
+          heroNav.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && heroNav.classList.contains("is-open")) {
+              event.preventDefault();
+              closeHeroMenu();
+              navToggle.focus();
+            }
+          });
+
+          window.addEventListener("resize", closeHeroMenu);
+        }
+      }
 
       const FALLBACK_CARD = "cards/blank.png";
       let currentVideoHandler = null;
