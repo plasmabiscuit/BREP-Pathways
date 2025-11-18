@@ -162,10 +162,6 @@
         z-index: 3;
       }
 
-      .hero-nav-menu[hidden] {
-        display: none;
-      }
-
       .hero-nav-link {
         display: flex;
         align-items: center;
@@ -499,16 +495,15 @@
             >
               BREP Overview
             </a>
-            <span
+            <a
               class="hero-nav-link is-current"
               role="menuitem"
-              aria-current="page"
-              tabindex="-1"
+              href="https://plasmabiscuit.github.io/BREP-Pathways/"
             >
               <span>BREP Pathways</span>
               <span class="hero-nav-link-indicator" aria-hidden="true">✓</span>
               <span class="sr-only">(current page)</span>
-            </span>
+            </a>
             <a
               class="hero-nav-link"
               role="menuitem"
@@ -631,9 +626,6 @@
             navToggle.setAttribute("aria-expanded", "false");
             navMenu.hidden = true;
           };
-
-          // Ensure the menu is closed on load in case markup defaults differ
-          closeHeroMenu();
 
           navToggle.addEventListener("click", (event) => {
             event.stopPropagation();
