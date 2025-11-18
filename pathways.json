@@ -164,7 +164,7 @@
         "title": "Integrating Multi-Omics Datasets",
         "repoUrl": "https://github.com/NIGMS/Integrating-Multi-Omics-Datasets",
         "introVideo": null,
-        "cardImage": "cards/Integrating Multi-Omnics.png",
+        "cardImage": "cards/IntegratingMulti-Omnics.png",
         "description": "A guide to methods for integrating and analyzing datasets from multiple omics sources.",
         "skills": [
           "Multi-Omics",
