@@ -58,30 +58,35 @@
       }
 
       header.hero {
-        padding: 4rem clamp(1.5rem, 4vw, 6rem);
-        background: linear-gradient(135deg, #0b0226, #1a0d3a 55%, #2d174f);
-        color: #fff;
-        box-shadow: 0 25px 45px rgba(15, 8, 25, 0.35);
-        position: relative;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: clamp(2rem, 6vw, 5rem);
-        flex-wrap: wrap;
-      }
+  padding: 4rem clamp(1.5rem, 4vw, 6rem);
+  background: linear-gradient(
+    135deg,
+    var(--accent-dark) 0%,
+    var(--accent) 55%,
+    #7b3ebf 100%
+  );
+  color: #fff;
+  box-shadow: 0 25px 45px rgba(40, 16, 70, 0.4);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(2rem, 6vw, 5rem);
+  flex-wrap: wrap;
+}
 
-      header.hero::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: radial-gradient(
-          circle at 65% 30%,
-          rgba(255, 255, 255, 0.25),
-          transparent 50%
-        );
-        pointer-events: none;
-      }
+    header.hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        circle at 65% 30%,
+        rgba(255, 255, 255, 0.18),
+        transparent 55%
+      );
+      pointer-events: none;
+    }
 
       .hero-content {
         position: relative;
@@ -201,7 +206,7 @@
         cursor: pointer;
         transition: transform 200ms ease, box-shadow 200ms ease;
         box-shadow: 0 18px 45px rgba(15, 8, 25, 0.18);
-        overflow: hidden;
+        overflow: visible;
         background-color: transparent;
         display: block;
       }
@@ -225,20 +230,18 @@
         color: var(--subtle);
         font-size: 0.95rem;
         line-height: 1.5;
-        max-height: 0;
-        opacity: 0;
+        max-height: 4.5rem;
         overflow: hidden;
+        opacity: 0;
         transform: translateY(-0.4rem);
-        transition: max-height 260ms ease, opacity 260ms ease,
-          transform 260ms ease;
-      }
+        transition: opacity 260ms ease, transform 260ms ease;
+}
 
       .module-item:hover .module-description,
-      .module-item:focus-within .module-description {
-        max-height: 300px;
-        opacity: 1;
-        transform: translateY(0);
-      }
+.module-item:focus-within .module-description {
+  opacity: 1;
+  transform: translateY(0);
+}
 
       .skill-pill {
         background: rgba(88, 44, 131, 0.12);
