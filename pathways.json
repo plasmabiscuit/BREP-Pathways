@@ -48,7 +48,7 @@
         "title": "Data Science Foundations-",
         "repoUrl": "https://github.com/plasmabiscuit/Data-Science-Foundations-in-R",
         "introVideo": "Intros/Data-Science-Foundations-in-R.mp4",
-        "cardImage": "cards/Data Science Foundations_ R.png",
+        "cardImage": "cards/DataScienceFoundations_R.png",
         "description": "A course on the foundational principles of using the R programming language for data science applications.",
         "skills": [
           "R",
